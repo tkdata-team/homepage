@@ -16,4 +16,4 @@ jobs:
               aws-region: AWS_REGION
               aws-secret-access-key: AWS_SECRET_ACCESS_KEY
               from: bucket
-              to: ‘s3://sutekiai-hp‘
+              to: s3://sutekiai-hp
