@@ -1,4 +1,6 @@
 version: 2.1
+orbs:
+  aws-s3: circleci/aws-s3@3.0.0
 jobs:
   build:
       docker:
@@ -15,5 +17,3 @@ jobs:
               aws-secret-access-key: AWS_SECRET_ACCESS_KEY
               from: bucket
               to: ‘s3://sutekiai-hp/‘
-orbs:
-  aws-s3: circleci/aws-s3@3.0.0
